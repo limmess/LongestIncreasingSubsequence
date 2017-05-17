@@ -8,7 +8,7 @@ namespace LongestIncreasingSubsequence
         public int LengthOfLIS(int[] seaquence)
         {
             if (seaquence == null || seaquence.Length == 0) return 0;
-            var dp = new int[seaquence.Length];
+            int[] dp = new int[seaquence.Length];
 
             for (int i = 0; i < seaquence.Length; i++)
             {
